@@ -17,7 +17,7 @@ namespace crystalShop
             numberOfCrystals = Convert.ToInt32(Console.ReadLine());
             playerGold = playerGold - numberOfCrystals*costOfCrystals;
             playerCristals = numberOfCrystals;
-            Console.WriteLine($"У вас: {playerGold} золота и {playerCristals} красталлов");
+            Console.WriteLine($"У вас: {playerGold} золота и {playerCristals} кристаллов");
             Console.ReadKey();
         }
     }
