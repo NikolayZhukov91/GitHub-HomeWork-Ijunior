@@ -8,11 +8,11 @@ namespace jugglingVariables.v2
         {
             string firstName = "Zhukov";
             string secondName = "Nikolay";
-            string support;
+            string tempName;
             Console.WriteLine($"Первая переменная: {firstName}, вторая переменная: {secondName}.");
-            support = firstName;
+            tempName = firstName;
             firstName = secondName;
-            secondName = support;
+            secondName = tempName;
             Console.WriteLine($"Первая переменная: {firstName}, вторая переменная: {secondName}.");
             Console.ReadKey();
         }
