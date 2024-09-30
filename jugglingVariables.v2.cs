@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace jugglingМariables.v2
+namespace jugglingVariables.v2
 {
     internal class Program
     {
