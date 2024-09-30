@@ -15,7 +15,7 @@ namespace Polyclinic
             int minutsInHour = 60;
             int waitingTimeHours;
             int waitingTimeMinutes;
-            Console.WriteLine("Привет добро пожаловать выздоравливать!");
+            Console.WriteLine("Привет, добро пожаловать выздоравливать!");
             Console.WriteLine("Введите количество пациентов в очереди:");
             numberOfPatients = Convert.ToInt32(Console.ReadLine());
             waitingTimeHours = (numberOfPatients * timeReception) / minutsInHour;
