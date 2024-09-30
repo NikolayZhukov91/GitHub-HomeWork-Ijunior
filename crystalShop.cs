@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace crystalShop
 {
@@ -7,7 +7,7 @@ namespace crystalShop
         static void Main(string[] args)
         {
             int playerGold;
-            int playerCristals;
+            int playerCrystals;
             int costOfCrystals = 10;
             int numberOfCrystals;
             Console.WriteLine($"Сколько у вас золота?");
@@ -16,8 +16,8 @@ namespace crystalShop
             Console.WriteLine("Сколько кристаллов вы хотите купить?");
             numberOfCrystals = Convert.ToInt32(Console.ReadLine());
             playerGold = playerGold - numberOfCrystals*costOfCrystals;
-            playerCristals = numberOfCrystals;
-            Console.WriteLine($"У вас: {playerGold} золота и {playerCristals} кристаллов");
+            playerCrystals = numberOfCrystals;
+            Console.WriteLine($"У вас: {playerGold} золота и {playerCrystals} кристаллов");
             Console.ReadKey();
         }
     }
