@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ExitControl
 {
@@ -15,7 +11,7 @@ namespace ExitControl
 
             Console.WriteLine($"Программа будет выполняться пока вы не введете команду {codeWord}.");
 
-            while ((message = Console.ReadLine()) != codeWord)
+            while (message != codeWord)
             {
                 Console.WriteLine("Введите команду:");
                 message = Console.ReadLine();
