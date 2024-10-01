@@ -11,12 +11,11 @@ namespace ExitControl
         static void Main(string[] args)
         {
             string codeWord = "exit";
-            string message;
-
+            
             Console.WriteLine($"Программа будет выполняться пока вы не введете команду {codeWord}.");
             Console.WriteLine("Введите команду:");
 
-            while ((message = Console.ReadLine()) != codeWord)
+            while (message = Console.ReadLine() != codeWord)
             {
                                 
             }
