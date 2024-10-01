@@ -15,7 +15,7 @@ namespace ExitControl
             Console.WriteLine($"Программа будет выполняться пока вы не введете команду {codeWord}.");
             Console.WriteLine("Введите команду:");
 
-            while (message = Console.ReadLine() != codeWord)
+            while (Console.ReadLine() != codeWord)
             {
                                 
             }
