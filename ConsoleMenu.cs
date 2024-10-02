@@ -23,10 +23,10 @@ namespace ConsoleMenu
             while (isWork)
             {
                 Console.WriteLine("Привет! Возможные команды:");
-                Console.WriteLine("Показать 'Hello, World!': команда - '1'");
-                Console.WriteLine("Очистить консоль: команда - '2'");
-                Console.WriteLine("Вывести случайное число: команда - '3'");
-                Console.WriteLine("Выйти из программы: команда - '4'");
+                Console.WriteLine($"Показать 'Hello, World!': команда - '{CommandShowText}'");
+                Console.WriteLine($"Очистить консоль: команда - '{CommandClearConsole}'");
+                Console.WriteLine($"Вывести случайное число: команда - '{CommandRandom}'");
+                Console.WriteLine($"Выйти из программы: команда - '{CommandExit}'");
 
                 userInput = Console.ReadLine();
 
@@ -50,6 +50,7 @@ namespace ConsoleMenu
                         Console.WriteLine("Такой команды нет.");
                         break;
                 }
+
             }
         }
     }
