@@ -45,7 +45,8 @@ namespace magicExchange
             Console.WriteLine("Ваш команда:");
             desiredOperation = Console.ReadLine();
 
-            bool isWork =true;
+            bool isWork = true;
+            
             while (isWork)
             {
                 switch (desiredOperation)
