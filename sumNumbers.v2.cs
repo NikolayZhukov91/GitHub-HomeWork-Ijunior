@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace The_sum_of_the_numbers
 {
@@ -18,7 +14,6 @@ namespace The_sum_of_the_numbers
             Random random = new Random();
             int number = random.Next(minValueRandom, maxValueRandom);
             
-
             Console.WriteLine($"{number} - рандом");
 
             for (int i = 0; i <= number; i++)
