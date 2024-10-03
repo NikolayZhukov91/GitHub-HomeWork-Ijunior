@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace passworsTriesCount
 {
@@ -19,6 +15,7 @@ namespace passworsTriesCount
             {
                 Console.WriteLine("Введите пароль:");
                 userInput = Console.ReadLine();
+                
                 if (userInput == password)
                 {
                     Console.WriteLine("Секретное сообщение");
