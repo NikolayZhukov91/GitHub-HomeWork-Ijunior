@@ -12,7 +12,6 @@ namespace DegreeOfTwo
             int resultOfNumber = 1;
             int number;
             int degreeCounter = 0;
-            int additionalNumber = 1;
 
 
             Random ranodom = new Random();
