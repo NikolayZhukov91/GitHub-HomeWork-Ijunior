@@ -51,7 +51,7 @@ namespace BossFight
             int maxPlayerHealth = playerHealth;
             int death = 0;
 
-            Console.WriteLine($"Приветствую тебя путник! перед тобой уровня, у него {healthBoss} - здоровья, его аттака будет колебаться от {lowerBoundBossAttack} до {upperBoundBossAttack}");
+            Console.WriteLine($"Приветствую тебя путник! перед тобой Босс уровня, у него {healthBoss} - здоровья, его аттака будет колебаться от {lowerBoundBossAttack} до {upperBoundBossAttack}");
             Console.WriteLine("У тебя есть умения:");
             Console.WriteLine($"Обычная атака - наносит {playerUsualAttack} урона. Команда атаки - {CommandUsualAttack}");
             Console.WriteLine($"Огненный шар, который тратит ману - наносит {playerFireBallAttack} урона. Стоимость огненого шара {coastFireball} - маны. У тебя маны - {playerInspiration}. Команда атаки - {CommandFireball}");
