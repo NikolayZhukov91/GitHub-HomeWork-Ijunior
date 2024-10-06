@@ -23,7 +23,6 @@ namespace DegreeOfTwo
             }
 
             Console.WriteLine($"Число - {number}, степень - {degreeCounter}, число в степени {resultOfNumber}");
-            
             Console.ReadKey();
         }
     }
