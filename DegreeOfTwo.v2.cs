@@ -13,7 +13,6 @@ namespace DegreeOfTwo
             int number;
             int degreeCounter = 0;
 
-
             Random ranodom = new Random();
             number = ranodom.Next(lowerbound,upperbound);
 
