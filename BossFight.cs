@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace BossFight
 {
@@ -151,7 +144,7 @@ namespace BossFight
                 }
             }
 
-            if (playerHealth < death && healthBoss < 0)
+            if (playerHealth < death && healthBoss < death)
             {
                 Console.WriteLine("Вы славно сражались, но оба погибли.");
             }
