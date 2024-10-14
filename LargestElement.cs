@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Largest_element
 {
@@ -39,7 +35,7 @@ namespace Largest_element
             }
 
             Console.WriteLine($"Максимальное значение - {MaxValue}");
-            Console.WriteLine("модифицированная матрица:");
+            Console.WriteLine("Модифицированная матрица:");
             for (int i = 0; i < originalMatrix.GetLength(0); i++)
             {
                 for (int j = 0; j < originalMatrix.GetLength(1); j++)
