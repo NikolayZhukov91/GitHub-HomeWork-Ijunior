@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Local_maxima
 {
@@ -29,7 +25,7 @@ namespace Local_maxima
 
             if (elements[forFistIndex] > elements[forFistIndex + number])
             {
-                    Console.Write(elements[forFistIndex] + " ");
+                Console.Write(elements[forFistIndex] + " ");
             }
             
             for (int i = 1; i < (elements.Length - number); i++)
@@ -44,6 +40,7 @@ namespace Local_maxima
             {
                 Console.Write(elements[elements.Length - number] + " ");
             }
+            
             Console.ReadKey();
         }   
     }
