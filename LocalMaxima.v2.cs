@@ -14,6 +14,7 @@ namespace Local_maxima
             int forFistIndex = 0;
 
             Console.WriteLine("Исходный массив:");
+            
             for (int i = 0; i < elements.Length; i++)
             {
                 elements[i] = random.Next(lowerBound, upperBound);
