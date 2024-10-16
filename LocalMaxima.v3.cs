@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Local_maxima
 {
@@ -15,7 +11,6 @@ namespace Local_maxima
             int lowerBound = 0;
             int upperBound = 101;
             int forLastIndex = elements.Length - 2;
-
 
             Console.WriteLine("Исходный массив:");
 
