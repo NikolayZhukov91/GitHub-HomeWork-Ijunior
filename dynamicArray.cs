@@ -55,7 +55,7 @@ namespace Dynamic_array
                             tempDinamicArray[i] = dinamicArray[i];
                         }
                         tempDinamicArray[tempDinamicArray.Length - 1] = action;
-;                       dinamicArray = tempDinamicArray;
+                        dinamicArray = tempDinamicArray;
                         Console.SetCursorPosition(0, 1);
 
                         for (int i = 0;i < dinamicArray.Length; i++)
