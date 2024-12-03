@@ -28,7 +28,7 @@ class Program
                 if (currentCount > longestCount)
                 {
                     longestCount = currentCount;
-                    mostFrequentNumber = numbers[i];
+                    mostFrequentNumber = numbers[i - 1];
                 }
             }
             else
