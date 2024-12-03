@@ -9,7 +9,6 @@ class Program
         int lowerBound = 1;
         int upperBound = 11;
         int numberOne = 1;
-        
         int[] numbers = new int[30];
         Random random = new Random();
 
@@ -19,7 +18,6 @@ class Program
             Console.Write(numbers[i] + " ");
         }
         Console.WriteLine();
-
         int mostFrequentNumber = numbers[0];
 
         for (int i = numberOne; i < numbers.Length; i++)
@@ -38,7 +36,6 @@ class Program
                 currentCount = numberOne;             
             }
         }
-
         Console.WriteLine($"Самое длинное повторение: число {mostFrequentNumber}, количество повторений {longestCount}");
         Console.ReadKey();
     }
