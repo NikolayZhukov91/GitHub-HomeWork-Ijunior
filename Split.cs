@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace Split
 {
@@ -6,14 +6,15 @@ namespace Split
     {
         static void Main(string[] args)
         {
+            char space = ' ';
             string text = "Привет, я выполняю домашние задания в IJunior";
-            string[] textArray = text.Split(' ');
+            string[] words = text.Split(space);
 
-            foreach (string subText in textArray)
+            foreach (string subText in words)
             {
                 Console.WriteLine($"Substring: {subText}");
             }
-            
+
             Console.ReadKey();
         }
     }
