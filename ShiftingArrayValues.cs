@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Shifting_array_values
 {
@@ -19,7 +15,7 @@ namespace Shifting_array_values
             }
 
             Console.Write("\n");
-            Console.WriteLine("Ввдете количество сдвигов влево");
+            Console.WriteLine("Ввдете количество сдвигов влево:");
             numberShiftCycles = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < numberShiftCycles; i++)
