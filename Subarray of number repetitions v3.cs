@@ -9,6 +9,7 @@ class Program
         int lowerBound = 1;
         int upperBound = 11;
         int numberOne = 1;
+        
         int[] numbers = new int[30];
         Random random = new Random();
 
@@ -26,6 +27,7 @@ class Program
             if (numbers[i] == numbers[i - numberOne])
             {
                 currentCount++;
+                
                 if (currentCount > longestCount)
                 {
                     longestCount = currentCount;
