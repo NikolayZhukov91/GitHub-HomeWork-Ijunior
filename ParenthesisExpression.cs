@@ -31,7 +31,7 @@ namespace Parenthesis_expression
             }
             else
             {
-                Console.WriteLine("Строка не корректная");
+                Console.WriteLine("Строка некорректная");
             }
 
             Console.ReadKey();
