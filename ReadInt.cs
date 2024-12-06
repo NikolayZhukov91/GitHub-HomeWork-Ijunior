@@ -30,8 +30,6 @@ namespace ReadInt
                     Console.WriteLine("Неверный ввод. Пожалуйста, попробуйте снова.");
                 }
             }
-
-            
         }
     }
 }
