@@ -6,8 +6,8 @@ namespace UIElement
     {
         static void Main(string[] args)
         {
-            int healthPercent = 5, maxHealth = 10;
-            int manaPercent = 7, maxMana = 10;
+            int healthPercent = 50, maxHealth = 10;
+            int manaPercent = 70, maxMana = 10;
 
             while (true)
             {
