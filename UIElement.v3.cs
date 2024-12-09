@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Authentication;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UIElement
 {
@@ -35,7 +30,6 @@ namespace UIElement
                 manaPercent = Convert.ToInt32(Console.ReadLine());
                 Console.ReadKey();
                 Console.Clear();
-
             }
         }
 
