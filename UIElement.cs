@@ -15,9 +15,9 @@ namespace UIElement
                 DrawBar(manaPercent, maxMana, ConsoleColor.Blue, 1);
 
                 Console.SetCursorPosition(0, 5);
-                Console.WriteLine("Ввдите процент на которое изменится жизни:");
+                Console.WriteLine("Ввдите процент на который изменится жизни:");
                 healthPercent += Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Ввдите процент на которое изменится мана:");
+                Console.WriteLine("Ввдите процент на который изменится мана:");
                 manaPercent += Convert.ToInt32(Console.ReadLine());
                 Console.ReadKey();
                 Console.Clear();
