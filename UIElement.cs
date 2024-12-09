@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Security.Authentication;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace UIElement
 {
@@ -27,8 +22,6 @@ namespace UIElement
                 Console.ReadKey();
                 Console.Clear();
             }
-            
-
         }
 
         static void DrawBar(int valuePercent, int maxValue, ConsoleColor color, int position, char symbol = '|')
